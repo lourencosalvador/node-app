@@ -20,7 +20,7 @@ export function AddTags() {
       },
       body: JSON.stringify({ slug })
     });
-
+   
 
     revalidateTag('get-tags');
   }
